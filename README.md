@@ -1,6 +1,7 @@
 
 ### Portfolio for Tek Jones
 
+### Deployed Site : [Tek Jones Portfolio](https://epic-swirles-ddbc35.netlify.app/)
 
 Number and name of feature: Software Development Portfolio
 
@@ -11,6 +12,7 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
+
 
 
 
