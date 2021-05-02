@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/tek/100pxHeadshot.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -108,47 +108,43 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">10yr</span>
+                          <span className="description">Design</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="heading">1.5yr</span>
+                          <span className="description">Dev</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">5yr</span>
+                          <span className="description">UI/UX</span>
                         </div>
                       </div>
                     </Col>
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Tek Jones{" "}
+                      <span className="font-weight-light">, 37</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Seattle, Washington
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      UX/UI Designer, Full-stack Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Code Fellows, Bangkok International University
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        At the crossroads between UX/UI design and Full-Stack web development, I make sure the things I build, make the humans around me happier through purposeful experiences. 
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
